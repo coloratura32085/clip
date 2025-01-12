@@ -24,7 +24,7 @@ fig.suptitle("Spectrum and Filtered Comparison (Gaussian)", fontsize=16)
 
 # 滤波窗口大小和标准差
 window_size = 9
-sigma = 1  # 高斯滤波的标准差
+sigma = 2  # 高斯滤波的标准差
 
 # 遍历随机索引并绘制到子图中
 for i, idx in enumerate(random_indices):
